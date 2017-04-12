@@ -23,4 +23,4 @@ You must add container which will contain items
 ```
 
 # Example
-![Screenshot](showcast/example.gif)
+![Screenshot](showcase/example.gif)
