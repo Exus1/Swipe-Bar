@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#swipe-bar {
+  background: red;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 0;
+  text-align: left; /* Text align must be left! */
+  cursor: pointer;
+}
+
+.swipe-item {
+  position: relative;
+  height: 100%;
+  width: 250px;
+  background: green;
+  display: inline-block;
+  font-size: 18px;
+
+}
+
+.swipe-item:nth-child(even) {
+  background: yellow;
+}
